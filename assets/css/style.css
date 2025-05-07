@@ -1,0 +1,84 @@
+:root {
+    --primary-color: #d4af8f;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+}
+
+img {
+    margin: auto;
+    display: block;
+    width: 8cm;
+}
+
+form input, form label {
+    padding: 10px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    text-size-adjust: auto;
+
+  }
+
+  form button {
+    border-color: rgb(236, 189, 127);
+    background-color: rgb(255, 145, 0);
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    width: 5cm;
+    height: 50px;
+  }
+
+p {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: medium;
+}
+
+h4 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 35px;
+    margin: auto;
+}
+
+.resultado {
+    margin-top: 15px;
+    padding: 15px;
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+  .error {
+    margin-top: 15px;
+    padding: 15px;
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+div {
+    margin-top: 15px;
+}

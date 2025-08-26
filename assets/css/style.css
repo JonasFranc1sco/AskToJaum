@@ -14,34 +14,32 @@ img {
     width: 8cm;
 }
 
-form input, form label {
-    padding: 10px;
+#option {
     display: block;
     margin: auto;
     text-align: center;
     font-family: Arial, sans-serif;
     border-radius: 10px;
     text-size-adjust: auto;
-
   }
 
-  form button {
-    border-color: rgb(236, 189, 127);
-    background-color: rgb(255, 145, 0);
-    display: block;
-    margin: auto;
-    margin-top: 15px;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    border-radius: 10px;
-    width: 5cm;
-    height: 50px;
+form button {
+  border-color: rgb(236, 189, 127);
+  background-color: rgb(255, 145, 0);
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  border-radius: 10px;
+  width: 5cm;
+  height: 50px;
   }
 
-p {
+p, textarea {
     text-align: center;
     font-family: Arial, sans-serif;
-    font-size: medium;
+    font-size: 20px;
 }
 
 h4 {
@@ -51,18 +49,19 @@ h4 {
     margin: auto;
 }
 
-.resultado {
-    margin-top: 15px;
-    padding: 15px;
+#result {
     width: 300px;
-    height: 50px;
-    background-color: white;
+    min-height: 50px; 
+    background-color: d4af8f;
     border-radius: 10px;
     margin: auto;
+    margin-top: 15px;
     display: block;
     text-align: center;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    overflow-wrap: break-word; 
+    padding: 15px;
 }
 
   .error {

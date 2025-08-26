@@ -13,15 +13,13 @@ Inspired by [pergunteaopolvo.com](https://pergunteaopolvo.com), this project is 
 ## 📌 How to Use
 1. Insert the desired options into a **text block**, making sure that **each option is written on a new line**.  
    Example:
-'''
 Pizza
 Burger
 Sushi
 Salad
-'''
+
 3. The system will randomly pick one of the provided options using the `Math` library.
 
 Possible output:
-'''
 Sushi!
-'''
+
